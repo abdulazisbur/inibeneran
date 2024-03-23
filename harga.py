@@ -4,7 +4,8 @@ persen = int(input("Silahkan masukan persentase harga"))
 hargaPersen = hargaSuplier * (persen / 100)
 hargaJual = hargaSuplier +  hargaPersen
 
-print("harga suplier:", hargaSuplier)
-print("persentase :", persen)
-print("Untung dari Persentase:", hargaPersen)
-print("harga jual :", hargaJual)
+print("harga suplier:Rp. ", hargaSuplier)
+print("harga suplier:Rp. {}".format(hargaSuplier))
+print("persentase ", persen)
+print("Untung dari Persentase:Rp {}".format(hargaPersen))
+print("harga jual :Rp. {}".format (hargaJual))

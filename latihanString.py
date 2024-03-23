@@ -19,7 +19,6 @@ print("Alamat saya:", alamat_array)
 print("Alamat jalan saya:", jalan)
 print("Alamat kecamatan saya:", kecamatan)
 print("Alamat desa saya:", kabupaten)
-print("alamat tinggal saya", jalan, "Kecamatan", kecamatan, "Kabupaten", kabupaten)
-#join string
+print("alamat tinggal saya", jalan, "Kecamatan", kecamatan, "Kabupaten", kabupaten)#join string
 pemisah = " + "
 print("Alamat join saya:", pemisah.join(alamat_array))
